@@ -333,6 +333,7 @@ const Header = () => {
   };
 
   const handleInternshipClick = (internshipName) => {
+    navigate('/application');
     console.log('Selected internship:', internshipName);
     setIsOpen(false);
     setActiveInternship(null);
